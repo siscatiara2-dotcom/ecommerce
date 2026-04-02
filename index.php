@@ -1,0 +1,11 @@
+<?php
+include"lib/koneksi.php";
+include"modul/partials/header.php";
+include"modul/navbar.php";
+include"modul/menu.php";
+include"modul/banner.php";
+include"modul/flashsale.php";
+include"modul/banner-kategori.php";
+include"modul/produk-rekomendasi.php";
+include"modul/partials/footter.php";
+?>
