@@ -6,7 +6,7 @@
                $sqlmenu = $conn->query("SELECT * FROM categories");
                while($datamenu = $sqlmenu->fetch_assoc()){
                 ?>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600 whitespace-nowrap font-medium"><i class="<?php echo $datamenu['icon'] ?>"></i> <?php echo $datamenu['name'] ?></a>
+                    <a href="#" class="text-gray-600 hover:text-indigo-600 whitespace-nowrap font-medium"><i class="<?php echo $datamenu['icon'] ?>"></i> <?= $datamenu['name'] ?></a>
                 <?php
                }
                 ?>
